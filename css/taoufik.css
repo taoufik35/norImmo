@@ -86,16 +86,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  header{
-    border: 1px solid black;
-    background-color: rgb(233, 113, 58);
-    text-align: center;
-  }
-  footer{
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-around;
-  }
+  
+
 
 
 
