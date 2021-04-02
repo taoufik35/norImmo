@@ -1,23 +1,37 @@
-#d1{background-color: #EECC4499;}
-#d2{background-color: #db351f99;}
-.hide{display: none;}
+/* general rules */
+ 
+ul {
+  list-style-type: none;
+ }
 
+ a {
+  font-size: 1em;
+  color: #080B16 ;
+  text-decoration: none;
+ }
 
-/*.animate__animated.animate__bounce {
-  --animate-duration: 2s;
+ a:hover {
+   color:red;
+ }
+
+ h2 {
+   text-transform: uppercase;
+/* Joel CSS */
+
+ }
+#p1 , #p2{
+    color: turquoise;
+    margin: auto;
+    text-align: center;
 }
-  
-/* This changes all the animations globally */
-/*:root {
-   
+#d1 {
+  background-color: turquoise;
+  margin: auto;
+  text-align: center;
 }
-*/
- p {
- /* display: inline-block;
-    margin: 0 0.5rem;*/
-  --animate-duration: 800ms;
-    --animate-delay: 0.9s;
-   animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
-  }
-  
+#quest{
+  height: 60vh;
+  width: auto;
+  background-color: turquoise;
+}
+

@@ -1,16 +1,18 @@
-let d1 = document.getElementById("d1");
-let d2 = document.getElementById("d2");
-let p1 = document.getElementById("p1");
-let l1 = document.getElementById("l1");
+// Method 1:  change font color
+p1.addEventListener("mouseover", function(event) {
+  
+  event.target.style.color = "black";
+});
+p1.addEventListener("mouseout" , function(event){
+  event.target.style.color = "turquoise"
+}); 
 
-d1.addEventListener("mouseover", () => {p1.style.display = "block";});
-d1.addEventListener("mouseout", () => {p1.style.display = "none";});
-
-d2.onmouseover = aff;
-function aff(){
-  l1.style.display = "block";
-}
-d2.onmouseout = cac;
-function cac(){
-  l1.style.display = "none";
-}
+// Method 2:  with text in "let"
+let rep = document.getElementById("b");
+a.addEventListener("mouseover", function(){
+  let text = "Réponse 2 - C'est le faux texte standard de l'imprimerie depuis les années 1500.";
+  rep.innerText = text;
+});
+a.addEventListener("mouseout", function(){
+  rep.innerText = "";
+});
