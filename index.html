@@ -23,7 +23,7 @@
 
   <meta name="theme-color" content="#fafafa">
 </head>
-
+<!-------------------------------------------------------------------HEADER-------------------------------------------------------------------------->
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-primary">
     <div class="container-fluid">
@@ -32,7 +32,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
           <a class="nav-link" href="#">Contact</a>
           <a class="nav-link" href="#">Devis</a>
           <a class="nav-link">FAQ</a>
@@ -40,22 +40,126 @@
       </div>
     </div>
   </nav>
-
-
   <header>
     <section>
       <h1>NorImmo</h1>
       <p>Ensemble nous bâtissons votre avenir</p>
     </section>
   </header>
+<!-------------------------------------------------------------------SLIDESHOW CAROUSEL------------------------------------------------->
+<div class="slideshow-container-fluid ">
 
-  <main class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 4
+    </div>
+    <img src="img/autre_construction-maison.jpg">
+    <div class="text " >
+      <h2>CONSTRUCTION</h2>
+      <p>
+          Réalisées uniquement sur mesure,<br/>
+          les Maisons NorImmo s’adaptent à vos envies :
+          plain-pied ou étage,<br/>traditionnelle ou contemporaine,<br/>
+          toit plat ou classique.<br/>
+          Faites confiance à un constructeur expérimenté, 
+          fiable, sérieux, certifié et transparent<br/>
+          qui saura bâtir votre projet de vie.
+      </p>
+    </div>
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">2 / 4
+    </div>
+    <img src="img/construction-maison-neuve.jpg">
+    <div class="text">
+      <h2>CONSTRUCTION</h2>
+      <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br/>
+          Totam voluptates error veritatis maiores<br/> 
+          ipsa magnam debitis distinctio.<br/> 
+          Magni quia minima error earum iure,<br/> 
+          non quasi sequi eaque cupiditate corrupti nobis.<br/>
+      </p>
 
 
-caroussel
+    </div>
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">3 / 4
+    </div>
+    <img src="img/renovation_ancien.jpg">
+    <div class="text">
+      <h2>RENOVATION</h2>
+      <p>
+        Dans un contexte d’immobilier plutôt tendu,<br/>
+        Pour éviter toute inquiétude lors de votre projet de rénovation de maison<br/>
+        et gagner en tranquillité, 
+        rapprochez-vous des professionnels de nos agences.<br/>
+        Ils seront à vos côtés tout au long de la rénovation de votre maison.<br/>
+      </p>
+    </div>
+  </div>
 
-  </main>
+  <div class="mySlides">
+    <div class="numbertext">4 / 4
+    </div>
+    <img src="img/renovation_maison.jpg">
+    <div class="text">
+      <h2>RENOVATION</h2>
+      <p>
+        Lorem ipsum dolor, 
+        sit amet consectetur adipisicing elit.<br/>
+        Totam voluptates error veritatis maiores<br/>
+         ipsa magnam debitis distinctio.<br/> 
+        Magni quia minima error earum iure,<br/>
+         non quasi sequi eaque cupiditate corrupti nobis.<br/>
+      </p>
 
+    </div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+  <a class="next" onclick="plusSlides(1)">&#10095</a>
+  </div>
+  
+  
+
+
+
+  <div class="dots">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span>
+    <span class="dot"></span> 
+
+  </div>
+
+
+
+
+  <!--------------------------------------------------------------------presentation company--------------------------------------------->
+  <div class="com">
+
+    <h2>Bienvenue chez NorImmo
+    </h2>
+
+    <p>
+      NorImmo est le leader de la construction et de la rénovation de maisons individuelles en <br/>
+      Normandie. Pourquoi notre entreprise est-elle la première sur son marché ? Car elle propose aussi<br/> 
+      bien des prestations de rénovation que de construction. En intervenant autant sur le neuf que sur<br/>
+      l’ancien NorImmo a ainsi acquis une expertise globale qui lui a valu la confiance de ses clients.<br/>
+      Avec un taux de satisfaction de 90 % nos clients sont les plus satisfaits de Normandie. C’est<br/>
+      pourquoi nous avons remporté le grand prix BestBuilder 2015, 2016 et 2019 qui récompense les<br/>
+      meilleurs entrepreneurs.
+    </p>
+  </div>
+
+
+
+  <button><a href="hidouche.html">Pour un devis immédiat cliquez ici </a></button>
+
+  <!----------------------------------------------------------------------------------FOOTER--------------------------------------------------------------------------->
   <footer class="bg-primary">
     <section class="">
       <h2>catégories</h2>
@@ -107,7 +211,6 @@ caroussel
 
 
 
-  
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
