@@ -13,7 +13,6 @@ ul {
  a:hover {
    color:red;
  }
-
  h2 {
    text-transform: uppercase;
 /* Joel CSS */
@@ -26,12 +25,10 @@ ul {
 }
 #d1 {
   background-color: turquoise;
-  margin: auto;
-  text-align: center;
 }
-#quest{
-  height: 60vh;
-  width: auto;
+.button{
   background-color: turquoise;
 }
-
+.button:hover {
+   color: white;
+}
