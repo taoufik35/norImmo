@@ -14,6 +14,12 @@ img {
   height: 100vh;
 }
 
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
 /*--------------------------------------------------Slideshow container----------------------------------------------------- */
 .slideshow-container {
   max-width: 1000px;
@@ -53,14 +59,14 @@ img {
   padding: 8px 12px 0px 12px;
   position: absolute;
   width: auto;
-  text-align: justify;
   top: 92vh;
   left: 10px;
   border: 1px solid black;
-  background-color: rgb(233, 113, 58);
+  background-color: rgba(233, 113, 58);
   border-radius: 5px;
   font-size: 1em;
   opacity: 0.8;
+  text-align: justify;
 }
 
 h2{
@@ -101,26 +107,54 @@ h2{
 /*--------------------------------------------------------text to presented a company-------------------------------------------------------------*/
 
 .com{
-  text-align: center;
+  text-align: justify;
   margin: 3em 0 6em 0;
   font-size: 2em;
+  
   
 }
 
 .com h2{
   margin-bottom: 2em;
   font-size: 2em;
+  text-align: center;
 }
 button{
-  padding: 2em 2em;
+  padding: 4em 4em;
   margin-bottom: 30em;
   margin-left: 39%;
   background-color: rgb(233, 113, 58);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1em;
 }
 
 button a:hover{
   color: #0000ff;
 }
+
+
+
+
+
+
+
+
+/*------------------------------------------------style form -------------------------------------------------------------------*/
+
+
+fieldset{
+  margin: 12px;
+  padding: 20px;
+  border: 1px solid black;
+ 
+  
+}
+legend{
+  font-size: 1em;
+}
+
+
+
 
 
 

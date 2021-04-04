@@ -1,19 +1,29 @@
+
+
+
+
+
+
+//-----------------------------------------------------variable globale-------------------------------------------------
 var slideIndex = 1;
-
 var myTimer;
-
 var slideshowContainer;
+
+
+
+
+
 
 window.addEventListener("load",function() {
     showSlides(slideIndex);
     myTimer = setInterval(function(){plusSlides(1)}, 4000);
   
-    slideshowContainer = document.getElementsByClassName('slideshow-inner')[0];
+    slideshowContainer = document.getElementsByClassName("slideshow-container")[0];
   
    
   
-    slideshowContainer.addEventListener('mouseenter', pause)
-    slideshowContainer.addEventListener('mouseleave', resume)
+    slideshowContainer.addEventListener("mouseenter", pause)
+    slideshowContainer.addEventListener("mouseleave", resume)
 })
 
 // NEXT AND PREVIOUS CONTROL
@@ -36,7 +46,10 @@ function plusSlides(n){
 //Controls the current slide and resets interval if needed
 function currentSlide(n){
   clearInterval(myTimer);
-  myTimer = setInterval(function(){plusSlides(n + 1)}, 4000);
+  myTimer = setInterval(function(){
+    plusSlides(n + 1)
+  }, 4000);
+  
   showSlides(slideIndex = n);
 }
 
@@ -62,5 +75,7 @@ pause = () => {
 
 resume = () =>{
   clearInterval(myTimer);
-  myTimer = setInterval(function(){plusSlides(slideIndex)}, 4000);
+  myTimer = setInterval(function(){
+    plusSlides(slideIndex)
+  }, 4000);
 }
