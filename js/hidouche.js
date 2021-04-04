@@ -6,15 +6,16 @@ function estmation() {
     let area= document.getElementById("area");
     let priceArea = 1000*area.value;
 
+
     // clculate price rooms
     let numberOfRooms = document.getElementById("number_of_rooms");
     let priceRooms = 10000*numberOfRooms.value;
 
-
+    choiceMaterial();
     // calculate price material
     function choiceMaterial() {
         let valueSelected = document.getElementById("material").selectedIndex;
-        let optionSelected = document.getElementById("mySelect").options;
+        // let optionSelected = document.getElementById("material").options;
         
         if (valueSelected[0]) {
             priceTotal = (priceArea + priceRooms)*1.15;
@@ -31,13 +32,11 @@ function estmation() {
     }
    
     // priceTotal = (priceArea + priceRooms);
-    let resultFinal = document.getElementById("result_final");
+    let resultFinal = document.getElementById("result");
     resultFinal.innerText = "Le devis est: " + priceTotal + "euros";
-    return priceTotal;
+    // return priceTotal;
 
 }
-
-
 
 
 
