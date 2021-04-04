@@ -1,0 +1,34 @@
+/* general rules */
+ 
+ul {
+  list-style-type: none;
+ }
+
+ a {
+  font-size: 1em;
+  color: #080B16 ;
+  text-decoration: none;
+ }
+
+ a:hover {
+   color:red;
+ }
+ h2 {
+   text-transform: uppercase;
+/* Joel CSS */
+
+ }
+#p1 , #p2{
+    color: turquoise;
+    margin: auto;
+    text-align: center;
+}
+#d1 {
+  background-color: turquoise;
+}
+.button{
+  background-color: turquoise;
+}
+.button:hover {
+   color: white;
+}

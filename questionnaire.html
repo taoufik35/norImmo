@@ -1,9 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>NorImmo</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,7 +11,6 @@
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
-
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -19,7 +18,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-
+  <link rel="stylesheet" href="css/joel.css">
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -32,9 +31,9 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-          <a class="nav-link" href="#">Contact</a>
-          <a class="nav-link" href="#">Devis</a>
-          <a class="nav-link">FAQ</a>
+          <a class="nav-link" href="index.html">Contact</a>
+          <a class="nav-link" href="devis.html">Devis</a>
+          <a class="nav-link" href="questionnaire.html">FAQ</a>
         </div>
       </div>
     </div>
@@ -42,75 +41,60 @@
   <header>
     <section>
       <h1>NorImmo</h1>
-      <p>ensemble nous bâtissons votre avenir</p>
+      <p>Ensemble nous bâtissons votre avenir</p>
     </section>
   </header>
 
-  <main class="container">
 
 
-caroussel
-
-  </main>
-
-<footer class="bg-primary">
-  <section class="">
-    <h2>catégories</h2>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+  <section id="quest" class="col-6 w-100">
+  <h1 class="text-center">Question fréquentes / Réponses limpides</h1>
+    <div id="d1" class="col-6 offset-3 h-auto">
+        <div><strong>Question 1 |</strong> - Je suis propriétaire d’un bien en location, puis-je vendre le logement alors qu’il est occupé ?</div>
+        <p id="p1">Réponse 1 - Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+        <div id="detect"><strong>Question 2 |</strong> - Quels sont les documents obligatoires à fournir à l’agence immobilière pour la mise en vente de mon bien ?</div>
+        <p id="disp" class="text-center"></p> <!--Empty for received "Method 2"-->
+        <p id="quest3"><strong>Question 3 |</strong> - Les études de projet et devis sont-ils payants?</p>
+        <form>
+          <input class="button" type="button" value="Réponse">
+        </form>
+        
+    </div>  
   </section>
 
+<footer class="bg-primary fixed-bottom">
+  <section>
+    <h2>catégories</h2>
+    <ul>
+      <li><a href="index.html">Contact</a></li>
+      <li><a href="devis.html">Devis</a></li>
+      <li><a href="questionnaire.html">FAQ</a></li>
+    </ul>
+  </section>
+ 
   <section>
     <h2>Suivez-nous</h2>
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li><a href="index.html">Instagram</a></li>
+      <li><a href="index.html">Facebook</a></li>
+      <li><a href="index.html">Twitter</a></li>
     </ul>
   </section>
-
+ 
   <section>
     <h2>Nos agences</h2>
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li><a href="index.html">NomImmo Rouen</a></li>
+      <li><a href="index.html">NomImmo Dieppe</a></li>
+      <li><a href="index.html">NomImmo Evreux</a></li>
     </ul>
   </section>
-
+ 
 </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  
+  <script src="js/joel.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
